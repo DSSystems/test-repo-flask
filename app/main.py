@@ -1,7 +1,7 @@
 from flask import Flask
 import json
 
-app = Flask("REST API")
+app = Flask(__name__)
 
 @app.route("/")
 def home():
