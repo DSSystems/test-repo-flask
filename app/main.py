@@ -1,6 +1,8 @@
 from flask import Flask
 import json
 
+import app.routes as routes
+
 app = Flask(__name__)
 
 @app.route("/")
