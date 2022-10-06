@@ -2,5 +2,5 @@ from flask import Flask
 import json
 
 @app.route("/post")
-def home():
+def post():
     return json.dumps({"post": 1, "title": "DQA"})
